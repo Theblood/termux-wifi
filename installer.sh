@@ -23,16 +23,14 @@ wget https://raw.githubusercontent.com/Neo-Oli/termux-ubuntu/master/ubuntu.sh
 bash ubuntu.sh
 clear
 
-echo -e $purple ================================================================
-echo " "
-eche -e $blue && figlet "Installing requirements...
-echo " "
-echo -e $purple ================================================================
+echo -e "$purple ================================================================"
+echo "Instalando.Ubuntu... y librerias.."
+echo -e "$purple ================================================================"
 
 chmod +rwx ubuntu.sh
 ./ubuntu.sh
 clear
-echo -e $purple "Successfully installed!"
+echo -e "$purple Successfully installed!"
 sleep 3
 ./start-ubuntu.sh
 clear
@@ -48,7 +46,7 @@ cd fluxion && chmod +rwx *
 ./fluxion.sh
 
 echo -e $red "by MrBlackX/TheMasterCH"
-echo -e $purple "modified by 0n1cOn3
+echo -e $purple "modified by 0n1cOn3"
 echo -e $green "Successfully installed!"
 
 
